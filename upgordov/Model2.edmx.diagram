@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="18c7a79d1c8b44bdbbf101d56f050a6d" Name="Diagram1">
+        <EntityTypeShape EntityType="RetuhaModel.Books" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RetuhaModel.Complaints" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RetuhaModel.Genres" Width="1.5" PointX="7.5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RetuhaModel.ReadingLists" Width="1.5" PointX="7.5" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="RetuhaModel.Reviews" Width="1.5" PointX="10.5" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="RetuhaModel.RoleRequests" Width="1.5" PointX="5.25" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RetuhaModel.Roles" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RetuhaModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RetuhaModel.UnfreezeRequests" Width="1.5" PointX="5.25" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="RetuhaModel.Users" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <AssociationConnector Association="RetuhaModel.FK__Books__AuthorID__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="RetuhaModel.FK__ReadingLi__BookI__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="RetuhaModel.FK__Reviews__BookID__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="RetuhaModel.FK__Complaint__UserI__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="RetuhaModel.FK__ReadingLi__UserI__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="RetuhaModel.FK__Reviews__UserID__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="RetuhaModel.FK__RoleReque__UserI__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="RetuhaModel.FK__Users__RoleID__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="RetuhaModel.FK__UnfreezeR__UserI__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="RetuhaModel.BookGenres" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
